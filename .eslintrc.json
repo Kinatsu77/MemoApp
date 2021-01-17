@@ -18,8 +18,8 @@
         "react"
     ],
     "rules": {
-        "no-use-before-define": 0,
-        "import/no-unresolved": 0,
+        "no-use-before-define": 0
+        // "import/no-unresolved": 0,
         // "react/jsx-indent-props": "off",
         // "react/jsx-indent" : ["error", 4, { "props": 4 }],
         // "indent": [ "error", 4],

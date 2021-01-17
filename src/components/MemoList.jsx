@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function MemoList () {
+export default function MemoList() {
   return (
     <View>
       <View style={styles.memoListItem}>
@@ -63,6 +63,6 @@ const styles = StyleSheet.create({
   memoListItemDate: {
     fontSize: 12,
     lineHeight: 16,
-    color: '#848484'
+    color: '#848484',
   },
 });

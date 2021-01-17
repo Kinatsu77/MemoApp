@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { string } from 'prop-types';
 
-export default function CircleBotton (props) {
+export default function CircleBotton(props) {
   const { children } = props;
-  return(
+  return (
     <View style={styles.circleBotton}>
       <Text style={styles.circleBottonLabel}>{children}</Text>
     </View>
@@ -23,10 +23,10 @@ const styles = StyleSheet.create({
     right: 40,
     bottom: 40,
     shadowColor: '#000000',
-    shadowOffset: {width: 0, height: 8 },
+    shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.25,
     shadowRadius: 8,
-    elevation: 8 ,
+    elevation: 8,
   },
   circleBottonLabel: {
     color: '#ffffff',
